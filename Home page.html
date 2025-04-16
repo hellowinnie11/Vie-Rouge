@@ -1,175 +1,174 @@
+<!DOCTYPE html>
 <html>
 <head>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="styles.css">
-
-<meta name="description" content="Discover the new collection of trending fashion.">
-<meta name="robots" content="index, follow">
-<meta name="keywords" content="trend, bag, clothes, fashion, shoes, luxury, sizes, dresses, shirts">
-
-<title>VIE ROUGE | Homepage</title>
-
+  <meta charset="UTF-8">
+  <title>VIE ROUGE | Homepage</title>
+  <meta name="description" content="Discover the new collection of trending fashion.">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="trend, bag, clothes, fashion, shoes, luxury, sizes, dresses, shirts">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<header>
-      <nav> 
-        <ul>
-          <li id="title"><a href="Country.html">Malaysia</a></li>
-          <li><a href="Profile.html"><i class="fa fa-user" aria-hidden="true"></i> </a></li>
-        </ul>
-      </nav>
-    </header> 
-            
-<p class="p2"><img src="brandlogo.png" width="200px"> </p>
+  <header>
+    <nav> 
+      <ul>
+        <li id="title"><a href="Country.html">Malaysia</a></li>
+        <li><a href="Profile.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
 
-<div class="boxContainer">
-  <table class="elementsContainer">
+  <p class="p2"><img src="brandlogo.png" width="200px" alt="Brand Logo"></p>
+
+  <div class="boxContainer">
+    <table class="elementsContainer">
+      <tr>
+        <td><i class="fa fa-search" aria-hidden="true"></i></td>
+        <td><input type="text" placeholder="Search" class="search"></td>
+      </tr>
+    </table>
+  </div>
+
+  <hr color="lightgrey" size="1">
+
+  <div class="nvgbar">
+    <div class="dropdown">
+      <button class="dpdbtn">WOMEN</button>
+      <div class="dropdown-content">
+        <a href="#">Handbags</a>   
+        <a href="#">Ready To Wear</a>  
+        <a href="#">Shoes</a>    
+        <a href="#">Accessories</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dpdbtn">MEN</button>
+      <div class="dropdown-content">
+        <a href="#">Bags</a>   
+        <a href="#">Ready To Wear</a>  
+        <a href="#">Shoes</a>    
+        <a href="#">Accessories</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dpdbtn">ALL</button>
+      <div class="dropdown-content">
+        <a href="#">All Bags</a>   
+        <a href="#">All Ready To Wear</a>  
+        <a href="#">All Shoes</a>    
+        <a href="#">All Accessories</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="slides-container">
+    <div class="Slides fade">
+      <img src="bnn1.jpg" style="width:100%" alt="Banner 1">
+    </div>
+    <div class="Slides fade">
+      <img src="bnn2.jpg" style="width:100%" alt="Banner 2">
+    </div>
+    <div class="Slides fade">
+      <img src="bnn4.jpg" style="width:100%" alt="Banner 3">
+    </div>
+    <div class="Slides fade">
+      <img src="bnn3.jpg" style="width:100%" alt="Banner 4">
+    </div>
+
+    <a class="prev" onclick="changeSlide(-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+    <a class="next" onclick="changeSlide(1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+
+  <br>
+
+  <h1 style="text-align:center;">VR Fall25 New Drops Collection</h1>
+
+  <div style="text-align:center;">
+    <button class="button button1" onclick="document.location='Discover Collection.html'">Discover Collection</button>
+  </div>
+
+  <br><br>
+
+  <table style="border-collapse:collapse; width:100%; border:1px solid lightgrey;">
     <tr>
-     <td>
-        <i class="fa fa-search" aria-hidden="true"></i>
-     </td>
-     <td>
-        <input type="text" placeholder="Search" class="search">
-     </td></tr>
-</table></div>
+      <td style="border:1px solid lightgrey; text-align:center; padding:40px;">
+        <img src="pt1.jpg" width="500px" alt="Theme 1">
+        <p style="font-size:13pt;">THE PARTY PEOPLE</p>
+        <button class="button2" onclick="document.location='Collection Theme.html'">EXPLORE</button>
+      </td>
+      <td style="border:1px solid lightgrey; text-align:center; padding:40px;">
+        <img src="pt2.jpg" width="500px" alt="Theme 2">
+        <p style="font-size:13pt;">FANTASY GARDEN</p>
+        <button class="button2" onclick="document.location='Collection Theme2.html'">EXPLORE</button>
+      </td>
+    </tr>
+  </table>
 
-<hr color="lightgrey" size="1" />
+  <table style="border-collapse:collapse; width:100%; border:1px solid lightgrey;">
+    <tr>
+      <td style="text-align:center; padding:40px;">
+        <img src="pt3.jpg" width="300px" alt="Mono Mood">
+        <p style="font-size:13pt;">THE MONO MOOD</p>
+        <p style="font-size:12pt;">Style up your mono mood</p>
+      </td>
+      <td style="text-align:center; padding:40px;">
+        <img src="pt4.jpg" width="300px" alt="The Universe">
+        <p style="font-size:13pt;">THE UNIVERSE</p>
+        <p style="font-size:12pt;">Surround the universe with a style</p>
+      </td>
+      <td style="text-align:center; padding:40px;">
+        <img src="pt5.jpg" width="300px" alt="The Uptempo">
+        <p style="font-size:13pt;">THE UPTEMPO</p>
+        <p style="font-size:12pt;">A quick styling essential</p>
+      </td>
+    </tr>
+  </table>
 
-<div class="nvgbar">
-  <div class="dropdown">
-    <button class="dpdbtn">WOMEN</button>
-    <div class="dropdown-content">
-      <a href="#">Handbags</a>   
-      <a href="#">Ready To Wear</a>  
-      <a href="#">Shoes</a>    
-      <a href="#">Accessories</a>
-    </div>
+  <br>
+
+  <div style="text-align:center; margin-top:40px;">
+    <img src="pt7.jpg" width="600px" alt="Fill with Wishes">
+    <p style="font-size:13pt;">FILL WITH WISHES</p>
+    <p style="font-size:12pt;">Make your style extraordinary as you wish</p>
   </div>
-  <div class="dropdown">
-    <button class="dpdbtn">MEN</button>
-    <div class="dropdown-content">
-      <a href="#">Bags</a>   
-      <a href="#">Ready To Wear</a>  
-      <a href="#">Shoes</a>    
-      <a href="#">Accessories</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button class="dpdbtn">ALL</button>
-    <div class="dropdown-content">
-      <a href="#">All Bags</a>   
-      <a href="#">All Ready To Wear</a>  
-      <a href="#">All Shoes</a>    
-      <a href="#">All Accessories</a>
-    </div>
-  </div>
-</div>
 
-<div class="slides-container">
+  <br><br><br><br>
 
-<div class="Slides fade">
-  <img src="bnn1.jpg" style="width:100%">
-</div>
+  <footer>
+    <ul>
+      <li><a href="About Us.html"><div class="pf">About Us</div></a></li>
+      <li><a href="Contact.html"><div class="pf">Contact</div></a></li>
+      <li><a href="Follow Us.html"><div class="pf">Follow Us</div></a></li>
+      <li><a href="LegalAndPrivacy.html"><div class="pf">Legal & Privacy</div></a></li>
+    </ul>
+    <hr color="white" size="1px" width="1250px">
+    <p style="font-size:12px; text-align:center; color:white; padding:20px;">&copy; 2025 VIE ROUGE</p>
+  </footer>
 
-<div class="Slides fade">
-  <img src="bnn2.jpg" style="width:100%">
-</div>
+  <script>
+    let currentSlide = 1;
+    showSlides(currentSlide);
 
-<div class="Slides fade">
-  <img src="bnn4.jpg" style="width:100%">
-</div>
+    function changeSlide(n) {
+      showSlides(currentSlide += n);
+    }
 
-<div class="Slides fade">
-  <img src="bnn3.jpg" style="width:100%">
-</div>
+    function showSlides(n) {
+      let slides = document.getElementsByClassName("Slides");
+      if (n > slides.length) currentSlide = 1;
+      if (n < 1) currentSlide = slides.length;
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[currentSlide - 1].style.display = "block";
+    }
+  </script>
 
-<a class="prev" onclick="fstSlides(-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-<a class="next" onclick="fstSlides(1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-
-</div><br>
-
-<script>
-var slideShow= 1;
-SSlides(slideShow);
-
-function fstSlides(n) {
-  SSlides(slideShow+= n);
-}
-
-function secSlides(n) {
-  SSlides(slideShow= n);
-}
-
-function SSlides(n) {
-  var i;
-  var slides=document.getElementsByClassName("Slides");
-  
-  if (n > slides.length) {slideShow = 1}    
-  if (n < 1) {slideShow = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-}
-  slides[slideShow-1].style.display = "block";  
-}
-</script>
-
-<center><h1>VR Fall25 New Drops Collection</h1></center>
-
-<center><button class="button button1" onclick="document.location='Discover Collection.html'">Discover Collection</button></center>
-<br/><br/>
-
-<table style="border-collapse:collapse; width:100%; border:1px solid lightgrey;">
-  <tr>
-    <td style="border:1px solid lightgrey; text-align:center; padding-top:40px; padding-bottom:40px;"> <p class="p4"><img src="pt1.jpg" width="500px;"></p> 
-<center><p style="font-size:13pt;">THE PARTY PEOPLE</p>
-<button class="button2" onclick="document.location='Collection Theme.html'">EXPLORE</button></center></td>
-    <td style="border:1px solid lightgrey; text-align:center; padding-top:40px; padding-bottom:40px;"><p class="p4"><img src="pt2.jpg" width="500px;"></p> 
-<center><p style="font-size:13pt;">FANTASY GARDEN</p>
-<button class="button2" onclick="document.location='Collection Theme2.html'">EXPLORE</button></center></td>
-</tr>
-
-<table style="border-collapse:collapse; width:100%; border:1px solid lightgrey;">
-  <tr>
-    <td><center><p style="margin-top:40px;"><img src="pt3.jpg" width="300px;"></p>
-<p style="font-size:13pt;">THE MONO MOOD</p>
-<p style="font-size:12pt; margin-bottom:40px;">Style up your mono mood</p></center>
-</td>  
-
-    <td><center><p style="margin-top:40px;"><img src="pt4.jpg" width="300px;"></p>
-<p style="font-size:13pt;">THE UNIVERSE</p>
-<p style="font-size:12pt; margin-bottom:40px;">Surround the universe with a style</p></center>
-</td>
-
-    <td><center><p style="margin-top:40px;"><img src="pt5.jpg" width="300px;"></p>
-<p style="font-size:13pt;">THE UPTEMPO</p>
-<p style="font-size:12pt; margin-bottom:40px;">A quick styling essential</p></center>
-</td>
-</tr>
-</table>
-<br/>
-
-<center><p style="margin-top:40px;"><img src="pt7.jpg" width="600px;"></p>
-<p style="font-size:13pt;">FILL WITH WISHES</p>
-<p style="font-size:12pt;">Make your style extraordinary as you wish</p>
-</center><br/><br/><br/><br/>
-
-<footer>
-<ul>
-  <li> <a href="About Us.html"> <div class="pf"> About Us </div></a></li>
-  <li> <a href="Contact.html"> <div class="pf"> Contact </div></a></li>
-  <li> <a href="Follow Us.html"> <div class="pf"> Follow Us </div></a></li>
-  <li> <a href="Legal&Privacy.html"> <div class="pf"> Legal & Privacy </div></a></li>
-</ul>
-
-<hr color="white" size="1px"  width="1250px"/>
-
-<p style="font-size:12px; text-align:center; color:white; padding-top:20px; padding-bottom:20px;"> &copy; 2025 VIE ROUGE</p>
-
-</footer>
 </body>
-</html> 
-
+</html>
