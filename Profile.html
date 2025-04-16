@@ -1,0 +1,245 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="styles.css">
+
+<meta name="description" content="Please enter your information.">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="trend, bag, clothes, fashion, shoes, luxury, sizes, dresses, shirts">
+
+<title>VIE ROUGE | Profile</title>
+
+
+<script>
+function validate()
+{
+  if(MyForm.uname.value == "")
+  {
+    alert("Please enter the username");
+    MyForm.uname.focus();
+    return false;
+   }
+   if(MyForm.address.value == "")
+  {
+    alert("Please enter the address");
+    MyForm.address.focus();
+    return false;
+   }
+   if(MyForm.city.value == "")
+  {
+    alert("Please enter the city");
+    MyForm.city.focus();
+    return false;
+   }
+   if(MyForm.state.value == "")
+  {
+    alert("Please enter the state");
+    MyForm.state.focus();
+    return false;
+   }
+   if(MyForm.pcode.value == "")
+  {
+    alert("Please enter the postal code");
+    MyForm.pcode.focus();
+    return false;
+   }
+   if(MyForm.phno.value == "")
+  {
+    alert("Please enter the phone number");
+    MyForm.phno.focus();
+    return false;
+   }
+   if(MyForm.email.value == "")
+  {
+    alert("Please enter the email");
+    MyForm.email.focus();
+    return false;
+   }
+   if(MyForm.pword.value == "")
+  {
+    alert("Please enter the password");
+    MyForm.pword.focus();
+    return false;
+   }
+    alert("Your data is successfully submitted");
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+      <nav> 
+        <ul>
+          <li id="title"><a href="Country.html">Malaysia</a></li>
+          <li><a href="Profile.html"><i class="fa fa-user" aria-hidden="true"></i> </a></li>
+        </ul>
+      </nav>
+    </header> 
+            
+<a href="Home page.html"><p class="p2"><img src="brandlogo.png" width="200px"> </p></a>
+
+<div class="boxContainer">
+  <table class="elementsContainer">
+    <tr>
+     <td>
+        <i class="fa fa-search" aria-hidden="true"></i>
+     </td>
+     <td>
+        <input type="text1" placeholder="Search" class="search">
+     </td></tr>
+</table></div>
+
+<hr color="lightgrey" size="1" />
+
+<p style="float:right; margin-right:90px; margin-top:20px; margin-bottom:20px;">Profile
+</p>
+<br/><br/><br/>
+<hr color="lightgrey" size="1" />
+
+<h2 style="margin-left:100px;">My Profile</h2>
+
+<form name="MyForm" onsubmit="return(validate());">
+
+<div class="container1a"> <p style="font-size:24px; margin-left:20px; margin-bottom:50px; margin-top:10px;">Personal Information
+  <form id="survey" name="survey">
+  <div class="row">
+    <div class="col-25">
+      <label for="uname">User Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="uname" name="username">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="title">Title</label>
+    </div>
+    <div class="col-75">
+      <input type="radio" name="ms" id="ms" value="ms">
+        <label for="ms">Ms </label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <input type="radio" name="mr" id="mr" value="mr">
+        <label for="mr">Mr</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <input type="radio" name="mrs" id="mrs" value="mrs">
+        <label for="mrs">Mrs</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+       <optgroup label="Asia">
+        <option value="my">Malaysia</option>
+        <option value="cn">China</option>
+        <option value="jp">Japan</option>
+        <option value="skr">South Korea</option>
+        <option value="hk">Hong Kong SAR</option>
+        <option value="sg">Singapore</option>
+        <option value="tw">Taiwan</option>
+        <option value="tl">Thailand</option>
+      </optgroup>
+      <optgroup label="Americas">
+        <option value="usa">USA</option>
+        <option value="bs">Brasil</option>
+        <option value="cnd">Canada</option>
+      </optgroup>
+      <optgroup label="Europe">
+        <option value="bg">Belgium</option>
+        <option value="dm">Denmark</option>
+        <option value="sn">Spain</option>
+        <option value="fn">France</option>
+        <option value="ir">Ireland</option>
+        <option value="it">Italia</option>
+        <option value="nl">Nederland</option>
+        <option value="at">Austria</option>
+        <option value="uk">United Kingdom</option>
+        <option value="rs">Russia</option>
+      </optgroup>        
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="address">Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="address" name="address">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="city">City</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="city" name="city">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="state">State</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="state" name="state">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="pcode">Postal Code</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="pcode" name="pcode">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="phno">Phone No.</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="phno" name="phno">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="city">Password</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="pword" name="pword">
+    </div>
+   </div>
+</form>
+<br/><br/><br/><br/>
+
+    <center><button class="button1a">Save Information</button></center>
+<br/><br/>
+  </form>
+</div>
+
+<footer>
+<ul>
+  <li> <a href="About Us.html"> <div class="pf"> About Us </div></a></li>
+  <li> <a href="Contact.html"> <div class="pf"> Contact </div></a></li>
+  <li> <a href="Follow Us.html"> <div class="pf"> Follow Us </div></a></li>
+  <li> <a href="Legal&Privacy.html"> <div class="pf"> Legal & Privacy </div></a></li>
+</ul>
+
+<hr color="white" size="1px"  width="1250px"/>
+
+<p style="font-size:12px; text-align:center; color:white; padding-top:20px; padding-bottom:20px;"> &copy; 2025 VIE ROUGE</p>
+
+</footer>
+</body>
+</html>
